@@ -1,0 +1,38 @@
+{
+	"name": "broadcast-channel-svelte-kit-bug",
+	"version": "1.0.0",
+	"license": "MIT",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"preview": "svelte-kit preview",
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+		"format": "prettier --write --plugin-search-dir=. ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-node": "^1.0.0-next.35",
+		"@sveltejs/kit": "^1.0.0-next.139",
+		"@types/cookie": "^0.4.1",
+		"@typescript-eslint/eslint-plugin": "^4.28.5",
+		"@typescript-eslint/parser": "^4.28.5",
+		"broadcast-channel": "^4.0.0",
+		"eslint": "^7.32.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-svelte3": "^3.2.0",
+		"prettier": "~2.3.2",
+		"prettier-plugin-svelte": "^2.3.1",
+		"svelte": "^3.41.0",
+		"svelte-check": "^2.2.3",
+		"svelte-preprocess": "^4.7.4",
+		"tslib": "^2.3.0",
+		"typescript": "^4.3.5"
+	},
+	"type": "module",
+	"dependencies": {
+		"@fontsource/fira-mono": "^4.5.0",
+		"@lukeed/uuid": "^2.0.0",
+		"cookie": "^0.4.1"
+	}
+}
